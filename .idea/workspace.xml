@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8dd5d2fd-8698-473b-b29b-a2d565640451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideConquerSearchingAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,9 @@
       <workItem from="1602598766534" duration="1380000" />
       <workItem from="1602613909857" duration="1172000" />
       <workItem from="1602680381102" duration="6980000" />
+      <workItem from="1603204278498" duration="113000" />
+      <workItem from="1603204720056" duration="2718000" />
+      <workItem from="1603228706776" duration="3538000" />
     </task>
     <servers />
   </component>
@@ -96,10 +100,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601587767613" />
-    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602598825060">
+    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603204838223">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1602598825060" />
+    <state x="297" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1603204838223" />
     <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1601728884041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -136,10 +140,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1311" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601597267623" />
-    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1602680600254">
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1603229208506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602680600254" />
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603229208506" />
     <state x="0" y="0" width="731" height="728" key="find.popup" timestamp="1601593069400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -148,9 +152,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601728890130" />
-    <state x="300" y="203" width="840" height="1034" key="search.everywhere.popup" timestamp="1601635130271">
+    <state x="300" y="203" width="840" height="1034" key="search.everywhere.popup" timestamp="1603229962207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="203" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601635130271" />
+    <state x="300" y="203" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603229962207" />
   </component>
 </project>

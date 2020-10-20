@@ -1,9 +1,9 @@
-public class SearchingAlgorithms {
+public class DivideConquerSearchingAlgorithms {
     // properties
     private Vector vector;
 
     // constructor
-    public SearchingAlgorithms(Vector vector) {
+    public DivideConquerSearchingAlgorithms(Vector vector) {
         this.vector = vector;
     }
 

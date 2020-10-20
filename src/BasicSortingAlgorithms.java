@@ -1,9 +1,9 @@
-public class SortingAlgorithms {
+public class BasicSortingAlgorithms {
     // properties
     private Vector vector;
 
     // constructor
-    public SortingAlgorithms(Vector vector) {
+    public BasicSortingAlgorithms(Vector vector) {
         this.vector = vector;
     }
 

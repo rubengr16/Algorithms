@@ -6,12 +6,12 @@ public class Main {
         Vector vector = new Vector(array);
         Vector vector2 = new Vector(array2);
 
-        SortingAlgorithms selection = new SortingAlgorithms(vector);
-        SortingAlgorithms insertion = new SortingAlgorithms(vector);
-        SortingAlgorithms bubble = new SortingAlgorithms(vector);
-        SortingAlgorithms bubbleRemastered = new SortingAlgorithms(vector);
-        SortingAlgorithms comb = new SortingAlgorithms(vector);
-        SortingAlgorithms returnSortingAlgorithms = new SortingAlgorithms(vector2);
+        BasicSortingAlgorithms selection = new BasicSortingAlgorithms(vector);
+        BasicSortingAlgorithms insertion = new BasicSortingAlgorithms(vector);
+        BasicSortingAlgorithms bubble = new BasicSortingAlgorithms(vector);
+        BasicSortingAlgorithms bubbleRemastered = new BasicSortingAlgorithms(vector);
+        BasicSortingAlgorithms comb = new BasicSortingAlgorithms(vector);
+        BasicSortingAlgorithms returnBasicSortingAlgorithms = new BasicSortingAlgorithms(vector2);
 
 
         System.out.println("\n Unordered Vectors: ");
@@ -19,10 +19,10 @@ public class Main {
         insertion.getVector().show();
         bubble.getVector().show();
         comb.getVector().show();
-        returnSortingAlgorithms.getVector().show();
+        returnBasicSortingAlgorithms.getVector().show();
 
         selection.selectionSort();
-        Vector selectionReturn = returnSortingAlgorithms.selectionSortReturn();
+        Vector selectionReturn = returnBasicSortingAlgorithms.selectionSortReturn();
 
         System.out.println("\n Selection: ");
         selection.getVector().show();
@@ -30,7 +30,7 @@ public class Main {
         selectionReturn.show();
 
         insertion.insertionSort();
-        Vector insertionReturn = returnSortingAlgorithms.insertionSortReturn();
+        Vector insertionReturn = returnBasicSortingAlgorithms.insertionSortReturn();
 
         System.out.println("\n Insertion: ");
         insertion.getVector().show();
@@ -38,7 +38,7 @@ public class Main {
         insertionReturn.show();
 
         bubble.bubbleSort();
-        Vector bubbleReturn = returnSortingAlgorithms.bubbleSortReturn();
+        Vector bubbleReturn = returnBasicSortingAlgorithms.bubbleSortReturn();
 
         System.out.println("\n Bubble: ");
         bubble.getVector().show();
@@ -46,7 +46,7 @@ public class Main {
         bubbleReturn.show();
 
         bubbleRemastered.bubbleRemasteredSort();
-        Vector bubbleRemasteredReturn = returnSortingAlgorithms.bubbleRemasteredSortReturn();
+        Vector bubbleRemasteredReturn = returnBasicSortingAlgorithms.bubbleRemasteredSortReturn();
 
         System.out.println("\n BubbleRemastered: ");
         bubbleRemastered.getVector().show();
@@ -54,7 +54,7 @@ public class Main {
         bubbleRemasteredReturn.show();
 
         comb.combSort();
-        Vector combReturn = returnSortingAlgorithms.combSortReturn();
+        Vector combReturn = returnBasicSortingAlgorithms.combSortReturn();
 
         System.out.println("\n CombSort: ");
         comb.getVector().show();
